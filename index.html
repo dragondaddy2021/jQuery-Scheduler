@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+    <script src="src/index.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="editBlock">
+        <div class="editRow">
+          <label class="itemLabel">姓名：</label>
+          <input name="inputName" class="itemInput name" />
+        </div>
+        <div class="editRow">
+          <label class="itemLabel">預訂時間：</label>
+          <input name="inputTime" class="itemInput time" />
+        </div>
+        <button type="button" class="button" id="addButton">
+          新增
+        </button>
+      </div>
+      <div class="list">
+        <div class="card">
+          <div class="record name">Adele</div>
+          <div class="record time">16:30</div>
+          <div>
+            <button id="originEdit" type="button" class="button editButton">
+              編輯
+            </button>
+            <button id="delete" type="button" class="button deleteButton">
+              刪除
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  font-size: 14px;
+  /* width: 450px; */
+  padding: 20px;
+}
+
+.itemLabel {
+  display: inline-block;
+  width: 80px;
+}
+
+.itemInput {
+  border: none;
+  border: 1px solid #55d040;
+  margin: 10px 0px;
+  padding: 3px;
+}
+
+.itemInput:focus {
+  outline: none;
+}
+
+.list {
+  padding: 10px;
+  margin: 15px 0px;
+  background-color: #fafafa;
+  text-align: center;
+  width: 600px;
+  border: 1px solid #e2e3e2;
+  /* flex 排版 */
+  display:flex;
+    /* 水平對齊 */
+  justify-content: start;
+  /* 排列方向 */
+  flex-direction:row-reverse;
+    /* 換行方式 */
+  flex-wrap: wrap-reverse;
+    /* 垂直對齊 （ 單一行 ） */
+  align-items: flex-start;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #55d040;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 15px;
+}
+
+.card .record {
+  margin: 10px 0px;
+}
+
+.button {
+  padding: 3px 12px;
+  color: #fff;
+  background-color: #55d040;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.editButton {
+  border: 1px solid #55d040;
+  background-color: #fff;
+  color: #55d040;
+}
+
+.deleteButton {
+  border: 1px solid #ff9900;
+  background-color: #fff;
+  color: #ff9900;
+}
